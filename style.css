@@ -27,8 +27,20 @@ body {
 }
 
 .main {
-  padding: 3vw 1.5vw;
+  padding: 3vw 1.5vw 0;
 }
+
+ .cursor {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    z-index: 9;
+    opacity: 0;
+    pointer-events: none;
+    /* transform: translate(-50%, -50%) scale(0); */
+    background-color: rgba(255, 192, 203, 0.308);
+ }
 
 /* -----------------------------NAVIGATION---------------------------------- */
 
@@ -153,8 +165,8 @@ body {
 }
 
 .elements .elem .dets:hover {
-    top: 61.81%;
-    height: 230px;
+  top: 61.81%;
+  height: 230px;
 }
 
 .dets .detsUp {
@@ -201,8 +213,8 @@ body {
   object-fit: cover;
 }
 .detsDown .product p {
-    font-family: Gilroy;
-    font-size: 13px;
+  font-family: Gilroy;
+  font-size: 13px;
 }
 
 .elements .elem1 .dets {
@@ -215,14 +227,83 @@ body {
   background-color: #ffffff;
 }
 
+.page2 .lowerTexts {
+  width: 100%;
+  display: flex;
+  margin-top: 70px;
+}
+
+.lowerTexts .large {
+  width: 67.5%;
+  padding-right: 10vw;
+}
+.lowerTexts .large h1 {
+  font-size: 55px;
+  line-height: 57px;
+}
+
+.lowerTexts .small {
+  width: 32.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 50px;
+  padding-right: 100px;
+  color: #000000c9;
+}
+.lowerTexts .small p {
+  font-family: Gilroy;
+  font-size: 17px;
+  line-height: 23px;
+}
+.lowerTexts .small #button {
+  cursor: pointer;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  padding: 5px 0;
+  border-bottom: 1px solid #000;
+}
+
 /* -----------------------------PAGE3---------------------------------- */
 .page3 {
   width: 100%;
   min-height: 100vh;
+  padding-top: 10vw;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-/* -----------------------------RESPONSIVE---------------------------------- */
+.page3 .image {
+  width: 46vw;
+  height: 45vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.page3 .image img {
+  width: 42vw;
+}
+#img1 {
+  margin-bottom: 30px;
+}
+#img2 {
+  height: 33.5vw;
+}
+.page3 .image p {
+  font-family: Gilroy;
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: #000000cf;
+}
+
+/* #############################  RESPONSIVE  ###############################*/
 
 @media screen and (max-width: 1050px) {
   /*Ipad pro*/
@@ -242,6 +323,12 @@ body {
   .elements .elem {
     height: 65vw;
   }
+
+  /* ---------------------------PAGE3--------------------------- */
+  .page3 {
+    min-height: 80vh;
+    padding-top: 0vw;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -250,7 +337,7 @@ body {
   /* ---------------------------PAGE1--------------------------- */
   .page1 {
     min-height: 70vh;
-    padding: 25vw 2vw 0;
+    padding: 25vw 0 0;
   }
 
   .page1 .video-container {
@@ -271,6 +358,50 @@ body {
     width: 100%;
     height: 130vw;
   }
+
+  .page2 .lowerTexts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 35px;
+  }
+
+  .lowerTexts .large {
+    width: 100%;
+    padding-right: 0;
+  }
+  .lowerTexts .large h1 {
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  .lowerTexts .small {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-right: 0;
+    gap: 30px;
+    color: #000000c9;
+  }
+  .lowerTexts .small p {
+    font-family: Gilroy;
+    font-size: 17px;
+    line-height: 23px;
+  }
+  .lowerTexts .small #button {
+    cursor: pointer;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    padding: 5px 0;
+    border-bottom: 1px solid #000;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -279,11 +410,31 @@ body {
   /* ---------------------------PAGE1--------------------------- */
   .page1 {
     min-height: 70vh;
-    padding: 45vw 2vw 0;
+    padding: 45vw 0 0;
   }
 
   .page1 .video-container {
     width: 100%;
     height: 45vh;
   }
+
+
+  /* ---------------------------PAGE3--------------------------- */
+  .page3 {
+  min-height: 60vh;
+  padding-top: 10vw;
+}
+
+.page3 .image {
+  width: 40vw;
+  height: 40vw;
+}
+
+.page3 .image img {
+  width: 42vw;
+}
+.page3 .image p {
+  font-size: 8px;
+  margin-bottom: 5px;
+}
 }
