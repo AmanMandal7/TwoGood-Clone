@@ -369,6 +369,50 @@ transition: all ease 0.3s;
   color: #000000cf;
 }
 
+/* -----------------------------PAGE4---------------------------------- */
+.page4 {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.page4 h1 {
+  width: 80vw;
+  font-size: 4.8vw;
+  text-align: center;
+  line-height: 70px;
+  letter-spacing: -2px;
+}
+
+.page4 h2 {
+  margin-top: 4vw;
+  color: #fff;
+  border: none;
+  outline: none;
+  background-color: #000;
+  font-family: Gilroy;
+  letter-spacing: 2px;
+  font-size: 15px;
+  padding: 20px 60px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+.page4 h2:hover {
+  color: rgb(207, 206, 206);
+}
+
+.page4 p {
+  font-family: Gilroy;
+  margin-top: 30px;
+  width: 260px;
+  color: #393939;
+}
+
 /* #############################  RESPONSIVE  ###############################*/
 
 @media screen and (max-width: 1050px) { /*Ipad pro*/
@@ -395,6 +439,17 @@ transition: all ease 0.3s;
     min-height: 80vh;
     padding-top: 0vw;
   }
+
+  /* ---------------------------PAGE4--------------------------- */
+  .page4 {
+    padding-top: 300px;
+  }
+  
+  .page4 h1 {
+    width: 95vw;
+    font-size: 7vw;
+    line-height: 70px;
+  }
 }
 
 @media screen and (max-width: 1020px) {
@@ -414,7 +469,6 @@ transition: all ease 0.3s;
   /* -----------------------------NAVIGATION---------------------------------- */
   nav .left {
     height: 50px;
-    background-color: red;
     justify-content: start;
   }
   nav .left .logo {
@@ -492,6 +546,22 @@ transition: all ease 0.3s;
     padding: 5px 0;
     border-bottom: 1px solid #000;
   }
+
+
+  /* ---------------------------PAGE4--------------------------- */
+
+  .page4 {
+    padding-top: 300px ;
+  }
+  
+  .page4 h1 {
+    font-size: 6vw ;
+    line-height: 45px ;
+  }
+  
+  .page4 h2 {
+    margin-top: 10vw ;
+  }
 }
 
 @media screen and (max-width: 500px) {  /*12pro max*/
@@ -499,7 +569,6 @@ transition: all ease 0.3s;
   /* -----------------------------NAVIGATION---------------------------------- */
   nav .left {
     height: 30px;
-    background-color: red;
     justify-content: start;
   }
   nav .left .logo {
@@ -539,5 +608,22 @@ transition: all ease 0.3s;
 .page3 .image p {
   font-size: 8px;
   margin-bottom: 5px;
+}
+
+/* ---------------------------PAGE4--------------------------- */
+
+.page4 {
+  padding-top: 200px ;
+}
+
+.page4 h1 {
+  font-size: 8vw ;
+  line-height: 40px ;
+}
+
+.page4 h2 {
+  margin-top: 20vw;
+  font-size: 13px;
+  padding: 15px 40px;
 }
 }
