@@ -374,6 +374,15 @@ transition: all ease 0.3s;
 @media screen and (max-width: 1050px) {
   /*Ipad pro*/
 
+  /* -----------------------------NAVIGATION---------------------------------- */
+  nav {
+    padding: 12px;
+  }
+  
+  nav .links {
+    display: none;
+  }
+
   /* ---------------------------PAGE1--------------------------- */
   .page1 {
     min-height: 70vh;
