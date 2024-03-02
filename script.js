@@ -42,28 +42,31 @@ locomotiveScroller();
 // }
 // locomotiveScroller();
 
-gsap.to("nav .left svg", {
-    transform: "translateY(-100%)",
-    scrollTrigger: {
-        trigger: ".page1",
-        scroller: ".main",
-        start: "top 0",
-        end: "top -5",
-        scrub: 1
-    }
-})
-
-gsap.to("nav .right .links", {
-    transform: "translateY(-100%)",
-    opacity: 0,
-    scrollTrigger: {
-        trigger: ".page1",
-        scroller: ".main",
-        start: "top 0",
-        end: "top -5",
-        scrub: 1
-    }
-})
+function navAnimation() {
+    gsap.to("nav .left svg", {
+        transform: "translateY(-100%)",
+        scrollTrigger: {
+            trigger: ".page1",
+            scroller: ".main",
+            start: "top 0",
+            end: "top -5",
+            scrub: 1
+        }
+    })
+    
+    gsap.to("nav .right .links", {
+        transform: "translateY(-100%)",
+        opacity: 0,
+        scrollTrigger: {
+            trigger: ".page1",
+            scroller: ".main",
+            start: "top 0",
+            end: "top -5",
+            scrub: 1
+        }
+    })
+}
+navAnimation();
 
 function imageCursor() {
     document.addEventListener("mousemove", function (dets) {

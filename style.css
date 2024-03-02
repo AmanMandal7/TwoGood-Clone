@@ -371,17 +371,8 @@ transition: all ease 0.3s;
 
 /* #############################  RESPONSIVE  ###############################*/
 
-@media screen and (max-width: 1050px) {
-  /*Ipad pro*/
-
-  /* -----------------------------NAVIGATION---------------------------------- */
-  nav {
-    padding: 12px;
-  }
+@media screen and (max-width: 1050px) { /*Ipad pro*/
   
-  nav .links {
-    display: none;
-  }
 
   /* ---------------------------PAGE1--------------------------- */
   .page1 {
@@ -406,9 +397,33 @@ transition: all ease 0.3s;
   }
 }
 
-@media screen and (max-width: 850px) {
-  /*Ipad mini*/
+@media screen and (max-width: 1020px) {
 
+  /* -----------------------------NAVIGATION---------------------------------- */
+  nav {
+    padding: 12px;
+  }
+  
+  nav .links {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 850px) {  /*Ipad mini*/
+
+  /* -----------------------------NAVIGATION---------------------------------- */
+  nav .left {
+    height: 50px;
+    background-color: red;
+    justify-content: start;
+  }
+  nav .left .logo {
+    height: 50px;
+  }
+  nav .left .logo.first {
+    margin-left: -12px;
+  }
+  
   /* ---------------------------PAGE1--------------------------- */
   .page1 {
     min-height: 70vh;
@@ -479,8 +494,21 @@ transition: all ease 0.3s;
   }
 }
 
-@media screen and (max-width: 500px) {
-  /*12pro max*/
+@media screen and (max-width: 500px) {  /*12pro max*/
+
+  /* -----------------------------NAVIGATION---------------------------------- */
+  nav .left {
+    height: 30px;
+    background-color: red;
+    justify-content: start;
+  }
+  nav .left .logo {
+    height: 30px;
+    margin-left: -15px;
+  }
+  nav .left .logo.first {
+    margin-left: -30px;
+  }
 
   /* ---------------------------PAGE1--------------------------- */
   .page1 {
