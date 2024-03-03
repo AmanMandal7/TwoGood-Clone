@@ -1,31 +1,31 @@
 ## Cynthia Ugwu - Clone
 
-It's a clone of Awarded Rejouice website. Most of the animations are cloned with its responsiveness.
+It's a static clone of Awarded Two Good Co website. Most of the animations are cloned with its responsiveness. The website has been made repsonsive for devices like iPad Pro, iPad Mini & iPhone 12 Pro.
 
 ## 🔗 Link To The Webpage
 
-https://amanmandal7.github.io/Rejouice/
+https://amanmandal7.github.io/TwoGood-Clone/
 
 ## Tech Stack
 
-**Frontend:** HTML, CSS, JavaScript, GSAP, Locomotive Scroll & SwiperJS
+**Frontend:** HTML, CSS, JavaScript, GSAP, Scroll Trigger & Locomotive Scroller
 
-## Some Screenshots
+## Screenshots of the Website
 
-- Loader Page
-  ![App Screenshot](https://github.com/AmanMandal7/Rejouice-Clone/blob/master/Screen%20Shots/01%20Loader%20Page.png)
+- SS 1
+  ![App Screenshot](https://github.com/AmanMandal7/TwoGood-Clone/blob/master/Screen%20Shots/SS%201.png)
 
-- Home Page
-  ![App Screenshot](https://github.com/AmanMandal7/Rejouice-Clone/blob/master/Screen%20Shots/02%20Home%20Page.png)
+- SS 2
+  ![App Screenshot](https://github.com/AmanMandal7/TwoGood-Clone/blob/master/Screen%20Shots/SS%202.png)
 
 - SS 3
-  ![App Screenshot](https://github.com/AmanMandal7/Rejouice-Clone/blob/master/Screen%20Shots/03.png)
+  ![App Screenshot](https://github.com/AmanMandal7/TwoGood-Clone/blob/master/Screen%20Shots/SS%203.png)
 
 - SS 4
-  ![App Screenshot](https://github.com/AmanMandal7/Rejouice-Clone/blob/master/Screen%20Shots/04.png)
+  ![App Screenshot](https://github.com/AmanMandal7/TwoGood-Clone/blob/master/Screen%20Shots/SS%204.png)
 
 - SS 5
-  ![App Screenshot](https://github.com/AmanMandal7/Rejouice-Clone/blob/master/Screen%20Shots/05.png)
+  ![App Screenshot](https://github.com/AmanMandal7/TwoGood-Clone/blob/master/Screen%20Shots/SS%205.png)
 
 - SS 6 Responsive
   ![App Screenshot](https://github.com/AmanMandal7/Rejouice-Clone/blob/master/Screen%20Shots/06.png)
