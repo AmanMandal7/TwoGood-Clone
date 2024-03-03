@@ -1,4 +1,4 @@
-## Cynthia Ugwu - Clone
+## Two Good Co - Clone
 
 It's a static clone of Awarded Two Good Co website. Most of the animations are cloned with its responsiveness. The website has been made repsonsive for devices like iPad Pro, iPad Mini & iPhone 12 Pro.
 
