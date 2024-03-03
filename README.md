@@ -27,20 +27,26 @@ https://amanmandal7.github.io/TwoGood-Clone/
 - SS 5
   ![App Screenshot](https://github.com/AmanMandal7/TwoGood-Clone/blob/master/Screen%20Shots/SS%205.png)
 
-- SS 6 Responsive
-  ![App Screenshot](https://github.com/AmanMandal7/Rejouice-Clone/blob/master/Screen%20Shots/06.png)
+- SS 6 
+  ![App Screenshot](https://github.com/AmanMandal7/TwoGood-Clone/blob/master/Screen%20Shots/SS%206.png)
 
 - SS 7
-  ![App Screenshot](https://github.com/AmanMandal7/Rejouice-Clone/blob/master/Screen%20Shots/07.png)
+  ![App Screenshot](https://github.com/AmanMandal7/TwoGood-Clone/blob/master/Screen%20Shots/SS%207.png)
 
-- SS 8 Responsive
-  ![App Screenshot](https://github.com/AmanMandal7/Rejouice-Clone/blob/master/Screen%20Shots/08.png)
+- Responsive for iPad Pro
+  ![App Screenshot](https://github.com/AmanMandal7/TwoGood-Clone/blob/master/Screen%20Shots/iPad%20Pro.png)
 
-- Footer
-  ![App Screenshot](https://github.com/AmanMandal7/Rejouice-Clone/blob/master/Screen%20Shots/09%20Footer.png)
+- Responsive for iPad Mini - SS 1
+  ![App Screenshot](https://github.com/AmanMandal7/TwoGood-Clone/blob/master/Screen%20Shots/iPad%20Mini%20-%201.png)
 
-- Footer Responsive
-  ![App Screenshot](https://github.com/AmanMandal7/Rejouice-Clone/blob/master/Screen%20Shots/10%20Footer%20Responsive.png)
+- Responsive for iPad Mini - SS 2
+  ![App Screenshot](https://github.com/AmanMandal7/TwoGood-Clone/blob/master/Screen%20Shots/iPad%20Mini%20-%202.png)
+
+- Responsive for iPad Mini - SS 3
+  ![App Screenshot](https://github.com/AmanMandal7/TwoGood-Clone/blob/master/Screen%20Shots/iPad%20Mini%20-%203.png)
+
+- Responsive for iPhone 12 Pro
+  ![App Screenshot](https://github.com/AmanMandal7/TwoGood-Clone/blob/master/Screen%20Shots/iPhone%2012%20pro.png)
 
 ## 🔗 Links
 
